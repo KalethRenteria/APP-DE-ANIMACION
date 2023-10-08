@@ -91,11 +91,6 @@ nav a:hover{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-footer {
-  background-color: gainsboro;
-  font-size: 10px;
-}
-
 #precios {
   width: 100%;
   height: 100vh;
@@ -144,14 +139,14 @@ footer {
 
 .navigation-manual{
   position: absolute;
-  width: 800px;
-  margin-top: -40px;
+  width: 100%;
+  top: 90%;
   display: flex;
   justify-content: center;
 }
 
 .manual-btn{
-  border: 2px solid #40D3DC;
+  border: 2px solid gainsboro;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -163,7 +158,7 @@ footer {
 }
 
 .manual-btn:hover{
-  background: #40D3DC;
+  background: gainsboro;
 }
 
 #radio1:checked ~ .first{
@@ -186,14 +181,14 @@ footer {
 
 .navigation-auto{
   position: absolute;
+  width: 100%;
+  top: 90%;
   display: flex;
-  width: 800px;
   justify-content: center;
-  margin-top: 460px;
 }
 
 .navigation-auto div{
-  border: 2px solid #40D3DC;
+  border: 2px solid gainsboro;
   padding: 5px;
   border-radius: 10px;
   transition: 1s;
@@ -204,17 +199,17 @@ footer {
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-  background: #40D3DC;
+  background: gainsboro;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-  background: #40D3DC;
+  background: gainsboro;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-  background: #40D3DC;
+  background: gainsboro;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
-  background: #40D3DC;
+  background: gainsboro;
 }
